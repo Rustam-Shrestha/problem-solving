@@ -99,3 +99,44 @@ leetcode based problem solving for algorithm with java
 - Solidified understanding of pointer dynamics in recursive and iterative contexts.
 - Improved confidence in space-efficient array operations.
 - Built momentum toward mastering foundational algorithms with clean, modular code.
+
+
+#  Day 4: Progress Summary
+
+##  Completed Problems
+
+### 1. Valid Parentheses
+- **Approach**: Stack-based validation using a `HashMap`.
+- **Details**:
+   - Mapped closing brackets to their corresponding opening brackets.
+   - Used a stack to track unmatched opening brackets.
+   - Verified correctness by ensuring stack is empty at the end.
+
+### 2. Search in Rotated Sorted Array
+- **Approach**: Modified binary search.
+- **Details**:
+   - Determined which half of the array is sorted at each iteration.
+   - Narrowed search space based on target's relation to sorted half.
+   - Achieved `O(log n)` time complexity.
+
+### 3. Kth Largest Element in an Unsorted Array
+- **Approach**: Min-heap of size `k`.
+- **Details**:
+   - Used a priority queue to maintain the top `k` largest elements.
+   - Pushed elements and removed the smallest when heap exceeded size `k`.
+   - Returned the root of the heap as the `k`th largest value.
+
+---
+
+##  Notes
+- Practiced stack operations for real-time string parsing.
+- Strengthened binary search logic in rotated contexts.
+- Applied heap structures for efficient selection problems.
+
+---
+
+## Reflection
+- Improved confidence in choosing optimal data structures.
+- Developed deeper intuition for algorithmic edge cases.
+- Enjoyed the balance of logic, structure, and performance.
+---
