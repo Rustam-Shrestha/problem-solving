@@ -140,3 +140,50 @@ leetcode based problem solving for algorithm with java
 - Developed deeper intuition for algorithmic edge cases.
 - Enjoyed the balance of logic, structure, and performance.
 ---
+
+
+
+#  Day 5: Progress Summary
+
+## Completed Problems
+
+### 1. Number of Islands
+- **Approach**: DFS-based flood fill.
+- **Details**:
+  - Iterated through each cell in the grid.
+  - Triggered DFS when encountering `'1'` to mark connected land.
+  - Counted distinct DFS calls as separate islands.
+
+---
+
+### 2. Clone Graph
+- **Approach**: DFS with memoization using a HashMap.
+- **Details**:
+  - Recursively cloned each node and its neighbors.
+  - Used a map to avoid re-cloning visited nodes.
+  - Preserved graph structure and connectivity.
+
+---
+
+### 3. Permutations
+- **Approach**: Backtracking with DFS.
+- **Details**:
+  - Explored all number placements recursively.
+  - Skipped already-used numbers in current path.
+  - Backtracked after each recursive call to explore alternatives.
+
+---
+
+## Notes
+- Practiced recursive traversal and memoization in graphs.
+- Strengthened DFS intuition for grid and permutation problems.
+- Applied backtracking patterns for exhaustive search.
+
+---
+
+## Reflection
+- Gained confidence in recursive problem-solving.
+- Improved ability to identify base cases and pruning strategies.
+- Enjoyed the clarity and elegance of DFS-based solutions.
+
+---
