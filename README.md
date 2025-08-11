@@ -187,3 +187,49 @@ leetcode based problem solving for algorithm with java
 - Enjoyed the clarity and elegance of DFS-based solutions.
 
 ---
+
+
+# Day 6: Progress Summary
+
+## Completed Problems
+
+### 1. Combination Sum
+- **Approach**: DFS with backtracking and recursion.
+- **Details**:
+    - Explored all combinations of candidates that sum to the target.
+    - Reused elements by staying at the same index during recursive calls.
+    - Backtracked after each inclusion to explore alternate paths.
+
+---
+
+### 2. Topological Sort (Kahn’s Algorithm)
+- **Approach**: BFS-based topological sorting using in-degree tracking.
+- **Details**:
+    - Built adjacency list and in-degree array from prerequisites.
+    - Used queue to process nodes with zero in-degree.
+    - Reduced in-degree of neighbors and added them to queue when zero.
+
+---
+
+### 3. Longest Palindromic Subsequence
+- **Approach**: Dynamic programming with matrix + DFS-style reasoning.
+- **Details**:
+    - Constructed 2D DP table to store LPS lengths for substrings.
+    - Filled table bottom-up based on character matches and subproblem overlap.
+    - Applied recursive intuition to understand base cases and transitions.
+
+---
+
+## Notes
+- Practiced DFS and backtracking in combination problems.
+- Applied BFS for graph traversal and topological sorting.
+- Strengthened dynamic programming intuition for string-based problems.
+
+---
+
+## Reflection
+- Reinforced recursive and iterative traversal strategies.
+- Improved ability to translate problem constraints into algorithmic patterns.
+- Maintained consistency in coding style and documentation.
+
+---
