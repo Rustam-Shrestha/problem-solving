@@ -233,3 +233,40 @@ leetcode based problem solving for algorithm with java
 - Maintained consistency in coding style and documentation.
 
 ---
+
+
+# Day 7: Progress Summary
+
+## Completed Problems
+
+### 1. Valid Anagram
+- **Approach**: Frequency array using `c - 'a'` indexing.
+- **Details**:
+    - Used a fixed-size array to count character frequencies.
+    - Incremented for characters in `s`, decremented for `t`.
+    - Checked if all counts returned to zero to confirm anagram validity.
+    - Efficient for lowercase English letters with O(n) time and O(1) space.
+
+---
+
+### 2. String Reversal (Two Pointer)
+- **Approach**: In-place reversal using two-pointer technique.
+- **Details**:
+    - Initialized pointers at both ends of the character array.
+    - Swapped characters while moving pointers toward the center.
+    - Modified the array directly without extra space.
+    - Achieved optimal performance with O(n) time and O(1) space.
+
+---
+
+## Notes
+- Practiced array manipulation and pointer movement for in-place operations.
+- Reinforced character frequency tracking for string comparison problems.
+- Strengthened understanding of space-efficient string algorithms.
+
+---
+
+## Reflection
+- Improved fluency in translating problem constraints into optimal patterns.
+- Maintained consistency in coding style and documentation.
+- Continued building a strong foundation in recursion, iteration, and array logic.
