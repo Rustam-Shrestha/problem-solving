@@ -270,3 +270,54 @@ leetcode based problem solving for algorithm with java
 - Improved fluency in translating problem constraints into optimal patterns.
 - Maintained consistency in coding style and documentation.
 - Continued building a strong foundation in recursion, iteration, and array logic.
+
+
+# Day 8: Progress Summary
+
+## Completed Problems
+
+### 1. Jump Game (Dynamic Programming)
+- **Approach**: Bottom-up DP with nested loops.
+- **Details**:
+    - Initialized a DP array to track reachability.
+    - For each index `i`, checked all previous indices `j` where `j + nums[j] >= i`.
+    - Updated `dp[i]` with `Math.max(dp[i], dp[j] + 1)` to reflect reach depth.
+    - Final result based on whether `dp[n - 1] > 0`.
+    - Time complexity: O(n²), Space: O(n).
+
+---
+
+### 2. Longest Increasing Subsequence
+- **Approach**: Classic DP with pairwise comparison.
+- **Details**:
+    - Initialized `dp[i] = 1` for all indices.
+    - Compared each `nums[i]` with all previous `nums[j]` to find increasing sequences.
+    - Updated `dp[i] = Math.max(dp[i], dp[j] + 1)` when `nums[i] > nums[j]`.
+    - Final result is the max value in the `dp` array.
+    - Time complexity: O(n²), Space: O(n).
+
+---
+
+### 3. House Robber (Two Variables)
+- **Approach**: Iterative DP using two rolling variables.
+- **Details**:
+    - Handled base cases for 0 and 1 house.
+    - Used `prev1` and `prev2` to track max loot without adjacent robbing.
+    - Updated `prev2 = Math.max(prev2, prev1 + nums[i])` in each iteration.
+    - Achieved optimal space usage with O(1) space and O(n) time.
+
+---
+
+## Notes
+- Practiced nested loop DP and rolling variable optimization.
+- Reinforced greedy reachability logic and subsequence tracking.
+- Strengthened intuition for space-time tradeoffs in dynamic programming.
+
+---
+
+## Reflection
+- Maintained discipline in solving and documenting each problem.
+- Improved clarity in translating brute-force logic into structured DP.
+- Continued building reusable mental models for array-based challenges.
+
+---
