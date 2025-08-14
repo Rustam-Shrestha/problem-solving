@@ -321,3 +321,59 @@ leetcode based problem solving for algorithm with java
 - Continued building reusable mental models for array-based challenges.
 
 ---
+
+
+
+
+
+# Day 9: Progress Summary
+
+## Completed Problems
+
+### 1. Decode Ways (Three Variables)
+- **Approach**: Iterative DP with rolling variables `pp`, `p`, and `curr`.
+- **Details**:
+    - Initialized `pp = 1`, `p = 1` to represent base cases.
+    - Iterated through the string, updating `curr` based on valid single and double digit decodings.
+    - Used `s.substring(i - 1, i + 1)` to check two-digit validity.
+    - Rolled variables forward: `pp = p`, `p = curr`.
+    - Time complexity: O(n), Space: O(1).
+
+---
+
+### 2. Word Break (Boolean DP Array)
+- **Approach**: DP with nested loops and substring checks.
+- **Details**:
+    - Initialized `dp[0] = true` to represent empty string.
+    - For each `i`, checked all `j < i` where `dp[j]` is true and `s.substring(j, i)` is in the dictionary.
+    - Set `dp[i] = true` if a valid break is found.
+    - Used `Set<String>` for efficient word lookup.
+    - Time complexity: O(n²), Space: O(n).
+
+---
+
+### 3. Move Zeros (Two Pointers)
+- **Approach**: In-place array manipulation using `left` and `right` pointers.
+- **Details**:
+    - `right` scans the array; `left` tracks position to place non-zero values.
+    - Swapped `nums[left]` and `nums[right]` when `nums[right] != 0`.
+    - Ensured all zeros are pushed to the end while maintaining order.
+    - Time complexity: O(n), Space: O(1).
+
+---
+
+## Notes
+- Practiced rolling variable DP and boolean array logic.
+- Reinforced pointer techniques for in-place array transformation.
+- Strengthened intuition for decoding patterns and substring-based DP.
+
+---
+
+## Reflection
+- Stayed consistent with problem-solving and markdown documentation.
+- Improved fluency in translating logic into clean, reusable code.
+- Continued building strategic templates for dynamic programming and array manipulation.
+
+---
+
+
