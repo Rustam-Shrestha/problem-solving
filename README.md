@@ -377,3 +377,43 @@ leetcode based problem solving for algorithm with java
 ---
 
 
+
+# Day 10: Progress Summary
+
+## Completed Problems
+
+### 1. Sort Colors (Dutch National Flag)
+- **Approach**: Three-pointer technique using `left`, `mid`, and `right`.
+- **Details**:
+    - Used `mid` to scan the array, `left` to place 0s, and `right` to place 2s.
+    - If `nums[mid] == 0`, swapped with `nums[left]` and incremented both.
+    - If `nums[mid] == 1`, moved `mid` forward.
+    - If `nums[mid] == 2`, swapped with `nums[right]` and decremented `right`.
+    - Achieved in-place sorting with O(n) time and O(1) space.
+
+---
+
+### 2. Reverse Sentence (Preserve Words, Remove Extra Spaces)
+- **Approach**: Char array manipulation with two-pointer logic.
+- **Details**:
+    - Reversed the entire character array.
+    - Then reversed each word individually using two pointers.
+    - Removed extra spaces by shifting characters in-place.
+    - Ensured clean output with single spaces between words and no leading/trailing spaces.
+    - Time complexity: O(n), Space: O(1).
+
+---
+
+## Notes
+- Practiced pointer-based array and string manipulation.
+- Reinforced logic for in-place transformations and whitespace handling.
+- Converted notebook logic into clean mental templates for reuse.
+
+---
+
+## Reflection
+- Stayed consistent with problem-solving and documentation.
+- Improved fluency in translating handwritten logic into structured summaries.
+- Continued building strategic templates for array and string problems.
+
+---
