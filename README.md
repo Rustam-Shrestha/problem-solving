@@ -419,6 +419,29 @@ leetcode based problem solving for algorithm with java
 ---
 
 
+# Day 11 — LeetCode Practice Log
+
+## 1. Palindrome Linked List
+- Approach: Partition the linked list using slow/fast pointers, reverse the second half, and compare both halves.
+- Techniques: Linked list traversal, in-place reversal, two-pointer comparison.
+- Complexity:
+  - Time: O(n)
+  - Space: O(1)
+
+## 2. Minimum Depth of Binary Tree
+- Approach: Recursive backtracking with depth calculation.
+- Techniques: Tree traversal, base case handling for null children.
+- Complexity:
+  - Time: O(n)
+  - Space: O(n)
+
+## 3. Diameter of Binary Tree
+- Approach: Recursive depth tracking with diameter update.
+- Techniques: Post-order traversal, backtracking, global max tracking.
+- Formula: diameter = max(diameter, left + right)
+- Complexity:
+  - Time: O(n)
+  - Space: O(n)
 
 
 
