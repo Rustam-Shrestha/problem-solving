@@ -442,6 +442,21 @@ leetcode based problem solving for algorithm with java
 - Complexity:
   - Time: O(n)
   - Space: O(n)
+# Day 12 — LeetCode Practice Log
+
+## 1. Letter Combinations of a Phone Number
+- Approach: Backtracking with recursive character building.
+- Techniques: Recursion, string manipulation, digit-to-letter mapping.
+- Complexity:
+    - Time: O(4^n), where n is the length of digits.
+    - Space: O(n) for recursion stack.
+
+## 2. Flatten Binary Tree to Linked List
+- Approach: Post-order traversal to rearrange pointers.
+- Techniques: Tree recursion, pointer manipulation, in-place transformation.
+- Complexity:
+    - Time: O(n)
+    - Space: O(n) due to recursion stack
 
 
 
