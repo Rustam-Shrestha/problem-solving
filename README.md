@@ -459,4 +459,16 @@ leetcode based problem solving for algorithm with java
     - Space: O(n) due to recursion stack
 
 
+#Day 13
+
+## Problems Solved
+
+### 1. Rotate Image (90 Degrees Clockwise)
+- **Problem**: Given an `n x n` 2D matrix representing an image, rotate the image by 90 degrees (clockwise).
+- **Approach**: Transpose the matrix, then reverse each row.
+
+### 2. Majority Element (Boyer-Moore Algorithm)
+- **Problem**: Find the majority element in an array (element that appears more than ⌊n/2⌋ times).
+- **Approach**: Use Boyer-Moore Voting Algorithm to identify the majority element in linear time and constant space.
+
 
