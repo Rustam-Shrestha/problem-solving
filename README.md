@@ -470,5 +470,18 @@ leetcode based problem solving for algorithm with java
 ### 2. Majority Element (Boyer-Moore Algorithm)
 - **Problem**: Find the majority element in an array (element that appears more than ⌊n/2⌋ times).
 - **Approach**: Use Boyer-Moore Voting Algorithm to identify the majority element in linear time and constant space.
+# Day 14
+
+## Problems Solved
+
+### 1. Find Maximum in Array
+- **Problem**: Given an array of integers, return the maximum value.
+- **Approach**: Iterate through the array and track the largest number seen so far.
+
+### 2. Count Even Numbers
+- **Problem**: Given an array of integers, count how many are even.
+- **Approach**: Loop through the array and increment a counter whenever an element is divisible by 2.
+
+## ✅ GitHub Commit Message
 
 
