@@ -481,7 +481,14 @@ leetcode based problem solving for algorithm with java
 ### 2. Count Even Numbers
 - **Problem**: Given an array of integers, count how many are even.
 - **Approach**: Loop through the array and increment a counter whenever an element is divisible by 2.
+=
 
-## ✅ GitHub Commit Message
 
+# Day 15
+
+## Problems Solved
+
+### 1. Coin Change (Dynamic Programming)
+- **Problem**: Given an array of coin denominations and a target amount, return the minimum number of coins needed to make up that amount. If it's not possible, return -1.
+- **Approach**: Use bottom-up dynamic programming. Initialize a `dp` array where `dp[i]` represents the minimum coins needed for amount `i`. For each coin, update the `dp` values using nested loops. If `dp[amount]` remains unchanged, return -1.
 
