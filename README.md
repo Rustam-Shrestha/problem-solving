@@ -492,3 +492,33 @@ leetcode based problem solving for algorithm with java
 - **Problem**: Given an array of coin denominations and a target amount, return the minimum number of coins needed to make up that amount. If it's not possible, return -1.
 - **Approach**: Use bottom-up dynamic programming. Initialize a `dp` array where `dp[i]` represents the minimum coins needed for amount `i`. For each coin, update the `dp` values using nested loops. If `dp[amount]` remains unchanged, return -1.
 
+# Day 16 – Partition Equal Subset Sum (Dynamic Programming)
+
+##  What I Learned
+
+Today I tackled the **Partition Equal Subset Sum** problem using **dynamic programming** with a nested for-loop.
+
+### Key Concepts:
+- If the total sum of the array is **odd**, partitioning is impossible.
+- If the sum is **even**, the goal becomes finding a subset that adds up to **half** the total.
+- Used a `boolean[] dp` array where `dp[i]` means: "Can we make sum `i` using some subset?"
+- Updated `dp[]` using a **nested loop**: outer loop over elements, inner loop backward from target to current number.
+
+### Example:
+For `nums = [1, 5, 11, 5]`, total = 22 → target = 11  
+We successfully found a subset that adds up to 11 → partition is possible ✅
+
+### Why It Matters:
+This problem builds intuition for subset sum logic and teaches how to use space-efficient DP.
+
+---
+
+## Reflection
+
+I now understand how to:
+- Use nested loops to build up possible sums
+- Apply boolean DP for subset problems
+- Think in terms of reachable states instead of brute force
+
+Tomorrow I’ll explore variations like subset sum with exact count or multiple partitions.
+
