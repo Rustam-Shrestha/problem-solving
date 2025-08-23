@@ -522,3 +522,51 @@ I now understand how to:
 
 Tomorrow I’ll explore variations like subset sum with exact count or multiple partitions.
 
+
+
+
+
+
+
+
+
+
+
+
+# Day 17: Progress Summary
+
+## Completed Problems
+
+### 1. Where Will the Ball Fall (Nested Loops)
+- **Approach**: Simulated ball movement using two nested loops.
+- **Details**:
+    - Outer loop iterates over each column.
+    - Inner loop simulates ball movement row by row.
+    - Ball direction is determined by `grid[row][col]`.
+    - Ball gets stuck if it moves out of bounds or hits a V-shaped block (`grid[row][col] != grid[row][nextCol]`).
+    - Time complexity: O(m × n), Space: O(n).
+
+---
+
+### 2. Integer to Roman Numerals (Greedy Conversion)
+- **Approach**: Greedy matching with predefined value-symbol pairs.
+- **Details**:
+    - Used arrays of values and corresponding Roman symbols.
+    - Iterated through values, subtracting and appending symbols while `num >= value`.
+    - Ensured correct ordering from largest to smallest.
+    - Time complexity: O(1), Space: O(1) due to fixed size input range.
+
+---
+
+## Notes
+- Practiced simulation logic and greedy conversion techniques.
+- Reinforced edge case handling for ball movement and Roman numeral rules.
+- Strengthened intuition for nested loop control and symbol mapping.
+
+---
+
+## Reflection
+- Maintained consistency in problem-solving and markdown documentation.
+- Improved fluency in simulating physical systems and encoding logic.
+- Continued building reusable templates for array traversal and greedy algorithms.
+
