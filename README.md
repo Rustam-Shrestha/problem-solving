@@ -570,3 +570,27 @@ Tomorrow I’ll explore variations like subset sum with exact count or multiple 
 - Improved fluency in simulating physical systems and encoding logic.
 - Continued building reusable templates for array traversal and greedy algorithms.
 
+# Day 18: Progress Summary
+
+
+### 1. Unique Paths (LeetCode 62)
+- **Approach**: 2D DP grid with two nested loops.
+- **Details**:
+    - Initialized first row and column to 1 (only one way to reach those cells).
+    - For other cells, `dp[i][j] = dp[i-1][j] + dp[i][j-1]`
+    - Represents number of ways to reach cell `(i, j)` from top or left.
+    - Time complexity: O(m × n), Space: O(m × n)
+
+---
+
+## Notes
+- Practiced simulation, greedy, and grid-based DP techniques.
+- Reinforced obstacle handling, boundary initialization, and path counting.
+- Strengthened intuition for nested loop traversal and state updates.
+
+---
+
+## Reflection
+- Stayed consistent with problem-solving and markdown documentation.
+- Improved fluency in translating logic into clean, reusable code.
+- Continued building strategic templates for dynamic programming and array manipulation.
