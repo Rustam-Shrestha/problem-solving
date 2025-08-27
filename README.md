@@ -580,7 +580,7 @@ Tomorrow I’ll explore variations like subset sum with exact count or multiple 
     - For other cells, `dp[i][j] = dp[i-1][j] + dp[i][j-1]`
     - Represents number of ways to reach cell `(i, j)` from top or left.
     - Time complexity: O(m × n), Space: O(m × n)
-
+    
 ---
 
 ## Notes
@@ -594,3 +594,22 @@ Tomorrow I’ll explore variations like subset sum with exact count or multiple 
 - Stayed consistent with problem-solving and markdown documentation.
 - Improved fluency in translating logic into clean, reusable code.
 - Continued building strategic templates for dynamic programming and array manipulation.
+
+
+# Day 19: Generate Parentheses (LeetCode #22)
+
+##  Problem Solved
+- **Title:** Generate Parentheses
+- **Link:** [LeetCode #22](https://leetcode.com/problems/generate-parentheses/)
+- **Approach:** Depth-First Search (DFS)
+
+## What I Learned
+- How to use DFS for combinatoriafl generation problems.
+- Managing constraints with recursive branching (`open < n`, `close < open`).
+- Importance of pruning invalid paths early to avoid unnecessary computation.
+- How to build up strings recursively and backtrack efficiently.
+
+##  Test Case Example
+```java
+Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
