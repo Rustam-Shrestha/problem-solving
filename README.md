@@ -614,3 +614,22 @@ Tomorrow I’ll explore variations like subset sum with exact count or multiple 
 Input: n = 3
 Output: ["((()))","(()())","(())()","()(())","()()()"]
 
+
+
+## Day 20 – LeetCode Grind: Is Graph Bipartite? (BFS)
+
+###  Problem Summary:
+Check if an undirected graph can be split into two groups such that no two adjacent nodes are in the same group.
+
+###  Key Learnings:
+- Implemented **BFS traversal** to color nodes level-by-level.
+- Used a **queue** to manage traversal and ensure alternate coloring.
+- Detected **conflicts** when adjacent nodes had the same color.
+- Handled **disconnected components** by restarting BFS from unvisited nodes.
+- Reinforced how **BFS is ideal for level-based coloring** and cycle detection.
+
+### ️ Patterns Practiced:
+- BFS with state propagation
+- Graph coloring using queue
+- Conflict detection in adjacency
+- Modular traversal of disconnected graphs
