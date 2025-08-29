@@ -633,3 +633,18 @@ Check if an undirected graph can be split into two groups such that no two adjac
 - Graph coloring using queue
 - Conflict detection in adjacency
 - Modular traversal of disconnected graphs
+
+
+#  Day 21 – Detecting Duplicates in an Array
+
+##  Problem Summary
+**LeetCode #217 – Contains Duplicate**  
+Given an integer array `nums`, return `true` if any value appears at least twice in the array, and `false` if every element is distinct.
+
+##  What I Learned
+- Efficient duplicate detection using a `HashSet`.
+- `Set.add()` returns `false` if the element already exists—perfect for early exit.
+- Time complexity: **O(n)** — each element is checked once.
+- Space complexity: **O(n)** — worst case, all elements are unique.
+
+This pattern is foundational for many problems involving uniqueness, frequency counting, and early termination.
